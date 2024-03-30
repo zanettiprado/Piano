@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.piano {
+    background-color: black;
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.controls {
+    color: rgb(255, 255, 255, 0.8);
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.controls h1 {
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+
+.switcher {
+    width: 50px;
+    height: 25px;
+    background-color: #4f4f4f;
+    display: flex;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+
+.switcher__button {
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #ebebeb;
+}
+
+.switcher--active {
+    background-color: #006eff;
+    justify-content: flex-end;
+}
+
+.checkbox__label {
+    display: flex;
+    gap: 8px;
+}
+
+.piano__keys {
+    width: 100%;
+    height: 300px;
+    background-color: #4f4f4f;
+    color: #ebebeb;
+    display: flex;
+    border-radius: 15px;
+    padding: 30px;
+
+}
